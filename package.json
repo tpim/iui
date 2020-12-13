@@ -5,12 +5,15 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "webpack --config ./build/webpack.config.dev.js"
+    "build": "webpack --config ./build/webpack.config.dev.js",
+    "eslint": "eslint --init"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@vue/compiler-sfc": "^3.0.4",
     "babel-loader": "^8.1.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-vue": "^7.2.0",
     "lerna": "^3.22.1",
     "vue-loader": "^16.1.0",
     "webpack": "^5.10.0",

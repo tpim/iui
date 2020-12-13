@@ -1,13 +1,17 @@
-// import {install} from "@i/alert"
+import IAlert from '@i/alert';
+// import {app} from 'vue';
 
-// module.exports = function add(){
-//     console.log("add function.");
-// }
+// app.component(IAlert.name, IAlert);
 
-function add(){
-    console.log("add");
-}
 
-export {
-    add
-}
+
+// const install = (app)=>{
+//     app.component(IAlert.name,IAlert);
+// };
+export default IAlert;
+// export default {
+//     install
+// };
+
+
+

@@ -1,2 +1,2 @@
-const add = require('../lib/lib')
+const add = require('../lib/lib');
 console.log(add.add());
